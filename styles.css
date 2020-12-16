@@ -1,3 +1,16 @@
 body{
     background-color: steelblue;
 }
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+}
